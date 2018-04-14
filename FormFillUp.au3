@@ -120,6 +120,4 @@ Sleep(2000)
 Send("{ENTER}")
 BlockInput(0)
 MsgBox(0,"Done","Number of response submitted = "&$nResponse)
-;WinClose("Untitled - Notepad")
-;WinWaitActive("Notepad","Save")
-;Send("!n")
+
